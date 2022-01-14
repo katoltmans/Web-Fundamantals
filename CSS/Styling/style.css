@@ -1,0 +1,29 @@
+body{
+    font-family: cursive;
+    padding: 3px;
+}
+h1,h2,h3{
+    padding: 3px 15px;
+}
+h1{
+background-color: black;
+color: white;
+}
+h2{
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+h3{
+    background-color: hsl(219, 78%, 75%);
+    color: indigo;
+    font-weight: lighter;
+    text-align: right;
+    text-decoration: underline;
+}
+.textAqua{
+    color: aqua;
+}
