@@ -1,0 +1,31 @@
+*{
+    margin: 1%;
+}
+#box-1 {
+    background-color:whitesmoke;
+    color:teal;
+    border: 1px solid teal;
+    border-radius: 20px;
+    padding: 3px 38px;
+    font-size: 70%;
+    font-weight: bold;
+
+}
+#box-2 {
+    background-color: mediumturquoise;
+    color: white;
+    font-size: 100%;
+    width: 27px;
+    height: 27px;
+    border: none;
+    border-radius: 50%;
+
+}
+#box-3 {
+    background-color: rgb(14, 123, 233);
+    color:white;
+    font-weight: lighter;
+    padding: 4px 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
