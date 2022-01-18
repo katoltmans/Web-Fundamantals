@@ -16,33 +16,26 @@ h1{
     align-items: center;
     justify-content: center;
 }
-div.line1 {
+.line1 {
     background-color:aquamarine;
-    padding:20px;
-    margin: 0px 20px 20px;
-    display:flex;
-    align-items: center;
     justify-content: space-between;
 }
-div.line2 {
+.line2 {
     background-color:darkturquoise;
-    padding:20px;
-    margin: 0px 20px 20px;
-    display:flex;
-    align-items: center;
     justify-content: space-evenly;
 }
-div.line3 {
+.row {
+    margin: 0px 20px 20px;
+    padding:20px;
+    display:flex;
+    align-items: center;
+}
+.line3 {
     background-color:cyan;
     margin: 0px 20px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
-div.credit {
+p {
     font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
