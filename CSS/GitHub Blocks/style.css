@@ -16,11 +16,11 @@ h1{
     align-items: center;
     justify-content: center;
 }
-.line1 {
+.aquamarine {
     background-color:aquamarine;
     justify-content: space-between;
 }
-.line2 {
+.dTurquoise {
     background-color:darkturquoise;
     justify-content: space-evenly;
 }
@@ -30,7 +30,7 @@ h1{
     display:flex;
     align-items: center;
 }
-.line3 {
+.cyan {
     background-color:cyan;
     margin: 0px 20px;
     justify-content: space-between;
