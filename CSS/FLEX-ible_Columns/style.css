@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.row {
+    color: white;
+    margin: 20px 0px;
+    display:flex;
+    align-content:center;
+}
+.col {
+    background-color: teal;
+    margin: 0px 20px 0px 0px;
+    padding: 20px;
+    flex: 1;
+}
+.col-2 {
+    background-color: teal;
+    padding:20px;
+    flex: 2;
+}
+.col-3{
+    background-color: teal;
+    margin-left: 20px;
+    padding:20px;
+    flex: 3;
+}
+.col-last {
+    margin: 0px;
+}
