@@ -10,7 +10,6 @@ body {
     width:98%;
     margin:0%;
     padding: 7px 15px;
-    flex-grow: 1;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -18,19 +17,18 @@ body {
 h1 {
     font-size: 160%;
     margin:0%;
-    justify-content: left;
 }
 .nav-links {
     margin: 0%;
     list-style-type: none;
     align-items: center;
+    display: flex;
     justify-content: flex-end;
 }
 li {
-    list-style-type: none;
-    display: inline-block;
     font-size: 20px;
     margin: 0px 5px;
+    list-style-type: none;
 }
 a {
     font-size: 60%;
