@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Profile Page</title>
+</head>
+
+<body>
+    <!--Navbar - code modified from Navbar project code-->
+    <div id="navigation">
+        <h1>Profile</h1>
+        <ul class="nav-links">
+            <ul><a href="#">Home</a></ul>
+            <ul><a href="#" class="active">My Profile</a></ul>
+            <ul><a href="#">Find Connections</a></ul>
+        </ul>
+        <div>
+            <button class="btn-s">Sign Out</button>
+        </div>
+    </div>
+
+    <!-- 2 column body for main content-->
+    <div id="main-content">
+        <div id="column-1">  
+            <div id="box-1" class="box user-info">
+                <!--code for box-1 modified from user card solution-->
+                <div id="ui-header">
+                    <img src="images\jane-m.jpg" alt="profile pic" id="avatar-p">
+                </div>
+                <h2>Jane Doe</h2>
+                <h3>
+                    <img src="icons\map-marker.png" alt="location pin" class="icon">
+                    Seattle
+                </h3>
+                <p>Developer | Engineer | Problem Solver <br>
+                    Master of shadows and the Internet!
+                </p>
+                <p>
+                    <a href="#">
+                        <img src="icons\gear.png" alt="gear-icon" class="icon">
+                        edit profile
+                    </a>
+                </p>
+            </div>
+            <div id="box-2" class="box education">
+                <div class="box-header">
+                    <h2>Education</h2>
+                </div>
+                <div>
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <p>Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, Mern, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <div id="column-2">
+            <div id="box-3" class="box connect-request">
+                <div class="box-header">
+                    <a href="#">2</a>
+                    <h2>Connection Requests</h2>
+                </div>
+                <div>
+                    <ul class="connections">
+                        <li>
+                            <a href="#">
+                                <img src="images\todd-s.jpg" alt="profile pic" class="avatar">
+                                Todd E
+                            </a>
+                            <button><img src="icons\accept-circle.png" alt="accept" class="btn-ar"></button>
+                            <button><img src="icons\close-circle.png" alt="reject" class="btn-ar"></button>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images\phil-s.jpg" alt="profile pic" class="avatar">
+                                Phil K
+                            </a>
+                            <button><img src="icons\accept-circle.png" alt="accept" class="btn-ar"></button>
+                            <button><img src="icons\close-circle.png" alt="reject" class="btn-ar"></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="box-4" class="box connections">
+                <div class="box-header">
+                    <a href="#">500+</a>
+                    <h2>Your Connections</h2>
+                </div>
+                <div>
+                    <ul class="connections">
+                        <li>
+                            <a href="#">
+                                <img src="images\adrien-s.jpg" alt="profile pic" class="avatar">
+                                Adrien D
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images\anne-s.jpg" alt="profile pic" class="avatar">
+                                Anne J
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images\alayne-s.jpg" alt="profile pic" class="avatar">
+                                Alayne T
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images\arry-s.jpg" alt="profile pic" class="avatar">
+                                Arry Y
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>  <!--Collaborated with Chris Mathis-->
