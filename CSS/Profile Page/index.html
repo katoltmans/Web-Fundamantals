@@ -26,35 +26,37 @@
 
     <!-- 2 column body for main content-->
     <div id="main-content">
-        <div id="column-1">  
+        <div id="column-1">
             <div id="box-1" class="box user-info">
                 <!--code for box-1 modified from user card solution-->
                 <div id="ui-header">
                     <img src="images\jane-m.jpg" alt="profile pic" id="avatar-p">
                 </div>
-                <h2>Jane Doe</h2>
-                <h3>
-                    <img src="icons\map-marker.png" alt="location pin" class="icon">
-                    Seattle
-                </h3>
-                <p>Developer | Engineer | Problem Solver <br>
-                    Master of shadows and the Internet!
-                </p>
-                <p>
-                    <a href="#" class="link-blue">
-                        <img src="icons\gear.png" alt="gear-icon" id="gear" class="icon">
-                        edit profile
-                    </a>
-                </p>
+                <div class="box-content">
+                    <h2>Jane Doe</h2>
+                    <h3>
+                        <img src="icons\map-marker.png" alt="location pin" class="icon">
+                        Seattle
+                    </h3>
+                    <p>Developer | Engineer | Problem Solver <br>
+                        Master of shadows and the Internet!
+                    </p>
+                    <p>
+                        <a href="#" class="link-blue">
+                            <img src="icons\gear.png" alt="gear-icon" id="gear" class="icon">
+                            edit profile
+                        </a>
+                    </p>
+                </div>
             </div>
             <div id="box-2" class="box education">
                 <div class="box-header">
                     <h2>Education</h2>
                 </div>
-                <div>
+                <div class="box-content">
                     <h2>Coding Dojo - Full Stack Bootcamp</h2>
                     <p>Dec 2019 - Mar 2020</p>
-                    <p>Triple black belt in Python, Mern, and C#...</p>
+                    <p class="bold">Triple black belt in Python, Mern, and C#...</p>
                 </div>
             </div>
         </div>
@@ -64,7 +66,7 @@
                     <a href="#" class="count">2</a>
                     <h2>Connection Requests</h2>
                 </div>
-                <div>
+                <div class="box-content">
                     <ul class="connections">
                         <li>
                             <a href="#">
@@ -85,38 +87,40 @@
                     </ul>
                 </div>
             </div>
-            <div id="box-4" class="box connections">
+            <div id="box-4" class="box">
                 <div class="box-header">
                     <a href="#" class="count">500+</a>
                     <h2>Your Connections</h2>
                 </div>
-                <div>
-                    <ul class="connections">
-                        <li>
-                            <a href="#">
-                                <img src="images\adrien-s.jpg" alt="profile pic" class="avatar">
-                                Adrien D
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images\anne-s.jpg" alt="profile pic" class="avatar">
-                                Anne J
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images\alayne-s.jpg" alt="profile pic" class="avatar">
-                                Alayne T
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images\arry-s.jpg" alt="profile pic" class="avatar">
-                                Arry Y
-                            </a>
-                        </li>
-                    </ul>
+                <div class="box-content">
+                    <div class="list">
+                        <ul class="connections">
+                            <li>
+                                <a href="#">
+                                    <img src="images\adrien-s.jpg" alt="profile pic" class="avatar">
+                                    Adrien D
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images\anne-s.jpg" alt="profile pic" class="avatar">
+                                    Anne J
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images\alayne-s.jpg" alt="profile pic" class="avatar">
+                                    Alayne T
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images\arry-s.jpg" alt="profile pic" class="avatar">
+                                    Arry Y
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="more">
                         <a href="#" class="link-blue">View More</a>
                     </div>
@@ -126,4 +130,5 @@
     </div>
 </body>
 
-</html>  <!--Collaborated with Chris Mathis-->
+</html>
+<!--Collaborated with Chris Mathis-->
