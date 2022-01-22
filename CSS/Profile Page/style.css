@@ -39,7 +39,7 @@ body {
 h1{
     font-size: 25px;
     font-weight: bold;
-    margin: 4px 25px 0px 0px;
+    margin: 4px 40px 5px 0px;
     display: flex;
     flex: 0;
     justify-content: flex-start;
@@ -72,7 +72,7 @@ h1{
 #main-content {
     padding: 10px 0px;
     display:flex;
-    flex-wrap: none;
+    flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: center;
 
@@ -92,12 +92,10 @@ ul {
 li a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
     font-size: 15px;
-    margin:  -10px 0px -10px -20px;
+    margin:  -10px 10px -10px -20px;
     padding: 10px;
     display: inline-flex;
-    align-items: center;
 }
 /*styling for avatars*/
 #avatar-p {
