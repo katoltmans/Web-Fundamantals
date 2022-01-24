@@ -1,0 +1,103 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /*button*/
+.btn {
+    background-color: rgb(14, 123, 233);
+    color:white;
+    font-weight: lighter;
+    padding: 4px 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}  
+/*Row and column template code*/
+.row {
+    color: white;
+    margin: 20px 0px;
+    display:flex;
+    align-content:center;
+}
+.col {
+    background-color: teal;
+    margin: 0px 20px 0px 0px;
+    padding: 20px;
+    flex: 1;
+}
+/*Navbar CSS styling code */
+.navbar {
+    background-color: #323636;
+    width:98%;
+    margin:0%;
+    padding: 7px 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links {
+    margin: 0%;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    font-size: 20px;
+    margin: 0px 5px;
+    list-style-type: none;
+}
+{
+    font-size: 60%;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+.active {
+    font-weight: bold;
+}
+/*General display*/
+#main-content {
+    padding: 10px 0px;
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+/*styling for avatars*/
+.avatar {
+    height: 75px;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow:  0 0 0px 2px lightgray;
+    position: absolute;
+    margin-top: 30px;
+	margin-left: 25px;
+}
+/*Stylings for links*/
+.link-blue {
+    color:#469aca;
+    font-weight: bold;
+}
+/*Stylings for boxes*/
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.box-header {
+    background-color: #2f2f30;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 10px 20px;
+    margin: -20px -20px 0px -20px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
