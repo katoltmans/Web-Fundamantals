@@ -1,0 +1,31 @@
+
+body{
+    background-color:#f5bb1cee
+}
+label{
+    background-color: #5b5b75;
+    color: #f5f5f5;
+    padding: 5px;
+
+}
+div{
+    background-color: #8a8a8a;
+    border: 2px #000000 solid;
+    padding: 10px;
+    margin: 10px;
+
+}
+.textBlack{
+    color: #000000;
+}
+.textRed{
+    color: red;
+}
+input{
+    background-color: #e2ee9d;
+    color: #8a680d;
+    width: 300px;
+}
+p{
+    text-align: center;
+}
