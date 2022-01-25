@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div>
+                <h1 class="flex-1">Dojonary</h1>
+            </div>
+            <div>
+                <form class="flex-2">
+                    <input type="text" name="Search" placeholder="Search"> 
+                </form>
+            </div>
+            <div>
+                <button class="btn flex-1" onclick="turnLogout(this)">Login</button>
+            </div>
+        </div>
+        <div id="main">
+            <div class="column-1 flex-2">
+                <div id="def-1" class="definition">
+                    <div class="flex-1 word">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn">13 likes</button>
+                    </div>
+                    <div class="flex-2 ">
+                        <p>A practitioner skilled in the 
+                        <a href="#">Japanese</a><br> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div id="def-2" class="definition">
+                    <div class="flex-1 word">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn">37 likes</button>
+                    </div>
+                    <div class="flex-2 ">
+                        <p>A <a href="#">programmer</a> who breaks 
+                        <br>down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column-2 flex-1">
+                <div id="box-3">
+                    <p>Dojonary is <br>defined by <strong>YOU</strong></p>
+                    <button class="btn flex-1">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

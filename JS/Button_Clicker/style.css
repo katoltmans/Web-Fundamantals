@@ -1,0 +1,92 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*outline: 1px dashed red;*/
+    font-family: cursive;
+}
+ /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+/*Navbar styling*/
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0% 10%;
+    background-color: lightgrey;
+}
+#navbar .btn {
+    background-color: rgb(14, 123, 233);
+    color:white;
+    font-weight: lighter;
+    padding: 1px 12px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}  
+
+/*Main content styling*/
+
+#main, .definition {
+    display: flex;
+}
+#main {
+    margin: 0% 10%;
+}
+.flex-2 {
+    flex:2;
+}
+.flex-1 {
+    flex:1;
+}
+.word {
+    align-items: center;
+    text-align: center;
+}
+.definition {
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px 5px 0px 0px;
+    padding: 10px
+}
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+.definition .btn {
+    background-color: #FFD966;
+    color: black;
+    font-weight: bold;
+    padding: 2px 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    align-items: stretch;
+}
+#box-3 {
+    border: 2px solid black;
+    margin: 20px 0px 0px 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+#box-3 .btn {
+    background-color: #93C47D;
+    color: black;
+    font-weight: bold;
+    padding: 2px 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    flex:1;
+}
+/*#column-1 p {
+    font-size: 15px;
+}*/
+
+
