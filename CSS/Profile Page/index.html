@@ -36,7 +36,7 @@
                     <img src="images/jane-m.jpg" alt="profile pic" id="avatar-p">
                 </div>
                 <div class="box-content">
-                    <h2>Jane Doe</h2>
+                    <h2 id="userName">Jane Doe</h2>
                     <h3>
                         <img src="icons/map-marker.png" alt="location pin" class="icon">
                         Seattle
@@ -45,7 +45,7 @@
                         Master of shadows and the Internet!
                     </p>
                     <p>
-                        <a href="#" class="link-blue">
+                        <a href="#" class="link-blue" onclick="editName()">
                             <img src="icons/gear.png" alt="gear-icon" id="gear" class="icon">
                             edit profile
                         </a>
@@ -66,57 +66,57 @@
         <div id="column-2">
             <div id="box-3" class="box connect-request">
                 <div class="box-header">
-                    <a href="#" class="count">2</a>
+                    <p id="conReqCount" class="count">2</p>
                     <h2>Connection Requests</h2>
                 </div>
                 <div class="box-content">
                     <ul class="connections">
-                        <li>
+                        <li id="cr1">
                             <a href="#">
                                 <img src="images/todd-s.jpg" alt="profile pic" class="avatar">
                                 Todd E
                             </a>
-                            <button><img src="icons/accept-circle.png" alt="accept" class="btn-ar"></button>
-                            <button><img src="icons/close-circle.png" alt="reject" class="btn-ar"></button>
+                            <button onclick="addConnection('cr1')"><img src="icons/accept-circle.png" alt="accept" class="btn-ar"></button>
+                            <button onclick="removeUser('cr1')"><img src="icons/close-circle.png" alt="reject" class="btn-ar"></button>
                         </li>
-                        <li>
+                        <li id="cr2">
                             <a href="#">
                                 <img src="images/phil-s.jpg" alt="profile pic" class="avatar">
                                 Phil K
                             </a>
-                            <button><img src="icons/accept-circle.png" alt="accept" class="btn-ar"></button>
-                            <button><img src="icons/close-circle.png" alt="reject" class="btn-ar"></button>
+                            <button onclick="addConnection('cr2')"><img src="icons/accept-circle.png" alt="accept" class="btn-ar"></button>
+                            <button onclick="removeUser('cr2')"><img src="icons/close-circle.png" alt="reject" class="btn-ar"></button>
                         </li>
                     </ul>
                 </div>
             </div>
             <div id="box-4" class="box">
                 <div class="box-header">
-                    <a href="#" class="count">500+</a>
+                    <p id="friendCount" class="count">500</p>
                     <h2>Your Connections</h2>
                 </div>
                 <div class="box-content">
                     <div class="list">
                         <ul class="connections">
-                            <li>
+                            <li id="friend1">
                                 <a href="#">
                                     <img src="images/adrien-s.jpg" alt="profile pic" class="avatar">
                                     Adrien D
                                 </a>
                             </li>
-                            <li>
+                            <li id="friend2">
                                 <a href="#">
                                     <img src="images/anne-s.jpg" alt="profile pic" class="avatar">
                                     Anne J
                                 </a>
                             </li>
-                            <li>
+                            <li id="friend3">
                                 <a href="#">
                                     <img src="images/alayne-s.jpg" alt="profile pic" class="avatar">
                                     Alayne T
                                 </a>
                             </li>
-                            <li>
+                            <li id="friend4">
                                 <a href="#">
                                     <img src="images/arry-s.jpg" alt="profile pic" class="avatar">
                                     Arry Y
@@ -131,6 +131,7 @@
             </div>
         </div>
     </div>
+<script src="script.js"></script>
 </body>
 
 </html>
