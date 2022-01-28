@@ -14,13 +14,13 @@
 #main {
     display: flex;
     flex-direction: column;
-    padding: 20px 150px 20px 155px;
+    padding: 20px 200px 20px 200px;
 }
 .flex1 {
     flex:1;
 }
 .flex2 {
-    flex:2,
+    flex:2;
 }
 
 /*Navbar styling*/
@@ -29,7 +29,7 @@
     display: flex;
     background-color: #9FC5F8;
     color: white;
-    padding: 10px 150px;
+    padding: 10px 200px;
 }
 h1 {
     font-weight: bolder;
@@ -60,7 +60,7 @@ h1 {
     border-bottom: 4px solid black;
 }
 h2 {
-    font-size: 175%;
+    font-size: 190%;
 }
 #SanJoseHeader p {
     font-size: 110%;
@@ -82,23 +82,25 @@ h2 {
     background-color: lightgray;
     align-items: center;
     justify-content: space-around;
-    width: 300px;
+    /*width: 300px;*/
+    padding: 10px 30px;
 }
 .dailyForecast span, .dailyForecast .highLow p {
     display: inline;
     width: auto;
 }
 h3 {
-    font-size: 160%;
+    font-size: 175%;
     padding: 17px;
 }
 img.dailyForecast {
-    height: 150;
+    height: 150px;
     width: 150px;
     border-radius: 50%;
+    padding: 0px;
 }
 .dailyForecast p {
-    font-size: 130%;
+    font-size: 150%;
     font-weight: bold;
     padding: 17px;
 }
@@ -130,6 +132,7 @@ img.dailyForecast {
     height: 200px;
     display: flex;
     align-items: center;
+    flex:3;
 }
 #alertText * {
     margin: 15px;
@@ -137,15 +140,19 @@ img.dailyForecast {
 .text {
     font-size: 120%;
 }
+.text p {
+    font-size: 140%;
+}
 h4 {
     font-weight: bolder;
-    font-size: 150%;
+    font-size: 170%;
 }
 /*button*/
 .acceptBtn {
     background-color: #6ba1e9;
     color: black;
     font-weight: bold;
+    font-size: 120%;
     padding: 10px;
     border: 2px solid black;
     box-shadow: 3px 3px black;
