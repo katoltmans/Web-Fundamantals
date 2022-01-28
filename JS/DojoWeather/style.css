@@ -127,6 +127,11 @@ img.dailyForecast {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    left: 200px
+
 }
 #alertText {
     height: 200px;
