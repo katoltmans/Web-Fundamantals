@@ -1,7 +1,7 @@
-//Fixxbuzz problem - iterate through numbers 1-100
+//Fizzbuzz problem - iterate through numbers 1-100
 //Numbers divisible by 3 console.log "Fizz"
 //Numbers divisible by 5 console.log "Buzz"
-//NUmbers divisible by both 3 and 5 console.log "FizzBuzz"
+//Numbers divisible by both 3 and 5 console.log "FizzBuzz"
 //All other numbers print themselves
 
 for(i=1; i<=100; i++) {
