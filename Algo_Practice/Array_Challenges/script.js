@@ -56,13 +56,14 @@ console.log();
 //Array Reverse - reverse the values in an array and return them
 console.log("Array Reverse")
 function reverse(arr) {
-    var temp = [];
+    var temp = 0;
     i=0;
-    while(i<arr.length) {
-        temp.unshift(arr[i])
+    while(i<arr.length/2) {
+        temp = arr[i];
+        arr[i] = arr[arr.length-1-i];
+        arr[arr.length-1-i] = temp;
         i++;
     }
-    arr = temp;
     return arr;
 }
 
