@@ -1,0 +1,13 @@
+/*CSS Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border-radius: 50%;
+    height: 3em;
+}
+#equals {
+    border-radius: 25%;
+}
