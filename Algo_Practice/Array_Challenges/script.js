@@ -90,4 +90,59 @@ function fibonacciArray(n) {
 var result = fibonacciArray(10);
 console.log(result); // we expect back [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
+//Write a function to reverse an array with a for loop
+console.log("Reverse Array")
+function reverse_array(arr) {
+    var temp = 0;
+    for(i=0; i<(arr.length/2); i++) {
+        temp = arr[i];
+        arr[i] = arr[arr.length-1-i];
+        arr[arr.length-1-i] = temp;
+    }
+    return arr;
+}
+var revarr = reverse_array(["l", "m", "n", "o", "p"]);
+console.log(revarr);  //expected result ["p", "o", "n", "m", "l"]
 
+//Write a function that returns a random number between 1 and 6
+console.log("Dice Roller")
+function d6() {
+    var diceArr = [1,2,3,4,5,6];
+    var roll = diceArr[Math.floor(Math.random() * diceArr.length)];
+    return roll;
+}
+    
+var playerRoll = d6();
+console.log("The player rolled: " + playerRoll);
+
+//Write a function that returns a random life answer
+console.log("Oracle")
+function oracle(arr) {
+    var answer = arr[Math.floor(Math.random() * arr.length)];
+    return answer;
+}
+var lifesAnswers = [
+"It is certain.",
+"It is decidedly so.",
+"Without a doubt.",
+"Yes – definitely.",
+"You may rely on it.",
+"As I see it, yes.",
+"Most likely.",
+"Outlook good.",
+"Yes.",
+"Signs point to yes.",
+"Reply hazy, try again.",
+"Ask again later.",
+"Better not tell you now.",
+"Cannot predict now.",
+"Concentrate and ask again.",
+"Don't count on it.",
+"My reply is no.",
+"My sources say no.",
+"Outlook not so good.",
+"Very doubtful."
+];
+
+lifeAnswer = oracle(lifesAnswers)
+console.log("Your answer is: " + lifeAnswer)
