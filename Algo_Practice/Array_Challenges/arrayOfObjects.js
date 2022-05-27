@@ -92,3 +92,17 @@ for (var i = 0; i < pokémon.length; i++) {
         poisonArray.push(pokémon[i].name);
     }
 }
+let revPoisonArray = poisonArray.reverse();
+console.log(revPoisonArray);
+
+// reverse array alternate method
+// console.log();
+// let reversedKeys = Object.keys(pokémon).reverse();
+// reversedKeys.forEach((key) => {
+//     if (
+//         reversedKeys[i].pokémon.types[0] == "poison" &&
+//         reversed[i].pokémon.types[1] == null
+//     ) {
+//         console.log(reversedKeys[i].pokémon.name);
+//     }
+// });
